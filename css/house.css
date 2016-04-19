@@ -1,0 +1,200 @@
+body{
+  width: 1280px;
+  height: 1653px;
+  margin:auto;
+  background-color: rgb(245,245,245);
+}
+header{
+    width: 1280px;
+    height: 204px;
+  background-color: rgb(242,242,242);
+  border-bottom: 1px solid blue;
+}
+.logo{
+  float: left;
+  margin-top: 1%;
+  margin-left:112px;
+  width: 225px;
+  height:135px;
+}
+.title{
+  float: left;
+  font-size: 80px;
+  margin-left:15%;
+  margin-top: 2%;
+  font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
+}
+#artical{
+  width:1280px;
+  height: 1449px;
+  background-image: url(https://raw.githubusercontent.com/Lwhite0720/midterm/master/images/background.jpg);
+  background-size: contain;
+}
+.uppart{
+  width: 1280px;
+  height: 746px;
+  border-bottom: 1px solid blue;
+  float: left;
+}
+.container{
+  width: 1185px;
+  height: 683px;
+  margin-top: 32px;
+  margin-left: 50px;
+  border: 1px solid blue;
+}
+.housetitle{
+  width: 1056px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 1px solid blue;
+}
+.houseword{
+    font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
+  font-size: 47px;
+  text-align: center;
+  margin-top: 3px;
+}
+.housepic{
+  width: 494px;
+  height: 509px;
+  border: 1px solid blue;
+  float: left;
+  margin-top: 30px;
+  margin-left: 62px;
+}
+.picture{
+  width: 407px;
+  height: 370px;
+  margin-top: 10px;
+  margin-left: 48px;
+
+
+}
+
+
+.slide {
+/*  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;*/
+  display: none;
+  /*position: absolute;*/
+  /*top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;*/
+
+}
+
+.active-slide {
+    display: block;
+}
+
+
+
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  /*vertical-align: top;*/
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  /*vertical-align: top;*/
+  margin-top: 9px;
+}
+.arrowpic{
+  width: 25px;
+  height: 25px;
+}
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: rgba(168,228,255,0.5);
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: rgba(0,140,200,0.5);
+}
+.des{
+  margin-top: 30px;
+}
+.housedes{
+  float: left;
+  width: 510px;
+  height: 42px;
+  margin-left: 39px;
+  border: 1px solid blue;
+}
+.desword{
+    font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
+  font-size: 26px;
+  margin: auto;
+}
+.housedes1{
+  float: left;
+  width: 510px;
+  height: 155px;
+  margin-left: 39px;
+  border: 1px solid blue;
+}
+.desword1{
+  font-size: 26px;
+  float: left;
+  margin-left: 65px;
+  margin-top: 34px;
+  margin-right: 80px;
+  margin-bottom: -32px;
+}
+.phonepic{
+  float: left;
+  width: 88px;
+  height: 88px;
+  margin-left: 24px;
+  margin-top: 32px;
+}
+.downpart{
+  float: left;
+  width: 1188px;
+  height: 528px;
+  margin-left: 51px;
+  margin-top: 33px;
+  border:1px solid blue;
+}
+.downword{
+    font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
+  font-size: 29px;
+  margin-top: 40px;
+  margin-bottom: -30px;
+  margin-left:25px;
+}
+.footer{
+float: left;
+margin-top: 28px;
+border-top: 2px solid rgb(27,45,205);
+width: 1280px;
+}
+.word{
+  font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
+  text-align: center;;
+  font-size: 18px;
+  /*float: left;*/
+  margin-bottom: -10px;
+}
