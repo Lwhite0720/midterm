@@ -2,7 +2,8 @@
 body{
   width: 1280px;
   height: 1653px;
-  margin:0 0 0 0;
+  margin:auto;
+  background-color: rgb(245,245,245);
 }
 header{
     width: 1280px;
@@ -29,14 +30,10 @@ header{
   background-image: url(https://raw.githubusercontent.com/Lwhite0720/midterm/master/images/background.jpg);
   background-size: contain;
 }
-.bar{
-  width: 100%;
-  height: 0.1%;
-  background-color: rgb(31,78,121);
-}
+
 .inf_img{
   width: 21%;
-  height: 16%;
+  height: 80%;
   float:left;
   margin: 2% 2% 2% 2%;
   border: 1px solid #000000;
@@ -44,6 +41,46 @@ header{
 .house_img{
   width: 100%;
   height: 100%;
+}
+.inf{
+  width: 72%;
+  height: 80%;
+  float:left;
+  margin: 2% 2% 2% 0%;
+  border: 1px solid rgb(65,113,156);
+}
+.inf_left{
+  width: 65%;
+  height: 100%;
+  float:left;
+}
+.home_title{
+  font-size: 32px;
+  font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
+  font-weight: bold;
+  color: inherit;
+  text-decoration:none;
+  color: #000000;
+}
+.inf_font{
+  font-size: 28px;
+  font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
+  margin: 1% 0% 1% 0%;
+}
+.inf_font_right{
+  font-size: 28px;
+  font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
+  margin: 30% 0% 30% 0%;
+}
+.inf_right{
+  width: 35%;
+  height: 100%;
+  float:left;
+}
+.block{
+  width: 100%;
+  height: 20%;
+  border-top: 1px solid rgb(31,78,121);
 }
 .content{
   font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
@@ -65,10 +102,20 @@ header{
 	background-color: #B0E0E6;
 }
 .footer{
-float: left;
-margin-top: 73px;
-border-top: 2px solid rgb(195,195,195);
-width: 1280px;
+  float: left;
+  margin-top: 7%;
+  border-top: 2px solid rgb(65,113,156);
+  width: 100%;
+}
+#link_block{
+  width: 5%;
+  height: 5%;
+  margin: 0 auto;
+}
+.link{
+  margin: 0% 10% 0% 10%;
+  float: left;
+  font-size: 100%;
 }
 .word{
   font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
