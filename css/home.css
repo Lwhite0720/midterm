@@ -1,8 +1,10 @@
 
+
 body{
   width: 1280px;
   height: 1653px;
-  margin:0 0 0 0;
+  margin:auto;
+  background-color: rgb(245,245,245);
 }
 header{
     width: 1280px;
@@ -18,9 +20,9 @@ header{
 }
 .title{
   float: left;
-  font-size: 48px;
+  font-size: 80px;
   margin-left:15%;
-  margin-top: 4%;
+  margin-top: 2%;
   font-family: 微軟正黑體,Microsoft JhengHei, 新細明體, PMingLiU;
 }
 #artical{
@@ -50,12 +52,13 @@ header{
 
 }
 .content:hover  {
-	background-color: #B0E0E6;
+	background-color: rgba(137,148,239,0.2);
+  color:rgb(67,135,152);
 }
 .footer{
 float: left;
 margin-top: 73px;
-border-top: 2px solid rgb(195,195,195);
+border-top: 2px solid rgb(27,45,205);
 width: 1280px;
 }
 .word{
